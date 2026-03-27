@@ -1,0 +1,13 @@
+a=[2,3,1,1,4]
+count=0
+i=0
+end=len(a)-1
+if(a[0]==0):
+    print(-1)
+while(i<end):
+    if(a[i]==0):
+        break
+    if(a[i]<end):
+        count+=1
+        i+=a[i]
+print(count)
